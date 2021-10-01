@@ -3,7 +3,7 @@ const notifier = require("node-notifier");
 const path = require("path");
 const player = require("play-sound")((opts = {}));
 
-const url = "https://queue.square-9.com/data/support-page.json";
+const url = "http://queue.square-9.com/data/support-page.json";
 let seconds = 5,
   the_interval = seconds * 1000;
 let lastCount = 0;
