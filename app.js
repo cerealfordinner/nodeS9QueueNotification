@@ -22,7 +22,6 @@ setInterval(function () {
           message: `New case in queue, current count: ${currentCount} last count: ${lastCount}`,
           sound: true,
           icon: path.join(__dirname, "icon.png"),
-          open: "https://na156.lightning.force.com/lightning/o/Case/list?filterName=00Ba0000009EPpsEAG",
         });
         console.log(
           `New case in queue, current count: ${currentCount} last count: ${lastCount}`
